@@ -20,17 +20,21 @@ class MatchGPT(Processor):
         'standard_name_list_for_gpt_request':list,
         # 也有可能没有standard_name_list_for_gpt_request字段
     }
-    sample_of_standard_list_for_gpt_ask =[
-        {'standard_name1': str, 'league_name1': str},
-        {'standard_name2': str, 'league_name2': str},
+    # todo'   key-比赛名，value-标准名
+    _mapping_dict = {
+        'Feren TC -- OGC Nice': 'Feren23123 TC -- OGC Nice',
+        'Eintracht  -- FK Rigas': 'Eintracht -- FK Rigas',
+        'Ferencvarosi TC -- OGC Nice': 'Ferencvarosi TC -- OGC Nice',
+        'key-比赛名': 'value-标准名',
+    }
+
+    # todo [{},{},{},{}] 这样的结构
+    _standard_list_for_gpt_ask = [
+        {'standard_name': str, 'league_name': str},
+        {'standard_name': str, 'league_name': str},
+        {'standard_name': str, 'league_name': str},
         ...
     ]
-    sample_of_mapping_dict = {
-        'game_name_from_platform1': 'standard_name1',
-        'game_name_from_platform2': 'standard_name2',
-        # 添加更多的平台名称映射到标准名称
-        # 这里显然是多对一的映射关系
-    }
 
     def __init__(self, log_name='MathFuzzy',**kwargs):
         super().__init__(**kwargs)

@@ -55,7 +55,10 @@ class Controller:
                                  standard_list_for_gpt_ask=self.standard_list_for_gpt_ask,
                                  standard_list_for_fuzzy_match=self.standard_list_for_fuzzy_match,
                                  aggregated_platform_dict=self.aggregated_platform_dict,
-                                 aggregated_max_odds_dict=self.aggregated_max_odds_dict)  # 管道
+                                 aggregated_max_odds_dict=self.aggregated_max_odds_dict,
+                                 output_queue=self.output_queue,
+                                 betting_queue=self.betting_queue,
+                                )  # 管道
         self.pipeline.add_processor(WsMessagesParser, log_name='./Log/测试/01解析ws消息.log')
         self.pipeline.add_processor(DataPreprocessor, log_name='./Log/测试/02数据预处理.log')
         self.pipeline.add_processor(MatchRegistration, log_name='./Log/测试/03匹配注册表.log')
@@ -99,7 +102,6 @@ class Controller:
 
             try:
                 message_str = self.input_queue.get(timeout=1)
-                # logger.warning('[开始新的一轮数据处理]')
             except queue.Empty:
                 logger.warning(f"[ 接收者队列为空 ]")
                 continue
@@ -110,14 +112,6 @@ class Controller:
                 # 数据处理失败，丢弃该数据
                 self.input_queue.task_done()
                 continue
-
-
-
-
-
-
-            # if max_odds < 1:
-            #     pass
 
 
 

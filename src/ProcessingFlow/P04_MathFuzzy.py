@@ -18,17 +18,22 @@ class MatchFuzzy(Processor):
         'standard_name': str,
         # 也有可能没有standard_name字段
     }
-    sample_of_standard_list_for_gpt_ask =[
-        {'gameName': str, 'leagueName': str},
-        {'gameName': str, 'leagueName': str},
+    # todo'   key-比赛名，value-标准名 。 某一场比赛会对应到一个标准名。
+    # todo   比如这里的 ['Feren TC -- OGC Nice'] ['Ferencvarosi TC -- OGC Nice'] 都是对应到 ['Ferencvarosi TC -- OGC Nice'] 这个标准名。
+    _mapping_dict = {
+        'Feren TC -- OGC Nice': 'Ferencvarosi TC -- OGC Nice',
+        'Ferencvarosi TC -- OGC Nice': 'Ferencvarosi TC -- OGC Nice',
+        'Eintracht  -- FK Rigas': 'Eintracht -- FK Rigas',
+        'key-比赛名': 'value-标准名',
+    }
+
+    # todo [{},{},{},{}] 这样的结构，正常情况下，一场比赛只有一个标准名称。
+    _standard_list_for_gpt_ask = [
+        {'standard_name': str, 'league_name': str},
+        {'standard_name': str, 'league_name': str},
+        {'standard_name': str, 'league_name': str},
         ...
     ]
-    sample_of_mapping_dict = {
-        'game_name_from_platform1': 'standard_name1',
-        'game_name_from_platform2': 'standard_name2',
-        # 添加更多的平台名称映射到标准名称
-        # 这里显然是多对一的映射关系
-    }
 
     def __init__(self, log_name='MathFuzzy',**kwargs):
         super().__init__(**kwargs)
@@ -46,7 +51,7 @@ class MatchFuzzy(Processor):
         return data
 
     def find_top_matches(self, game_name):
-        # 在标准名称列表中找到最接近的5项
+        # 取出标准列表中的所有标准名称
         game_names = [item['standard_name'] for item in self.standard_list_for_gpt_ask]
 
         # 使用 rapidfuzz 提取前 5 个最匹配的 gameName

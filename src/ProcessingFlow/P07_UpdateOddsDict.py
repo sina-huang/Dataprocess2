@@ -81,7 +81,47 @@ class UpdateOddsDicts(Processor):
             'Stake':{}  # 只有一个平台
         }
     }
-    sample_of_odds_dict ={}
+    sample_of_odds_dict ={
+        'Feren23123 TC -- OGC Nice':{
+            'home_max_odds': {
+                        'odds': 2.3,
+                        'Platform': 'Stake',
+                        'game_name': 'Feren23123 TC -- OGC Nice',
+                        'standard_name': 'FerenTC -- OGC Nice'
+                    } ,
+            'draw_max_odds': {
+                'odds': 2.3,
+                'Platform': 'Stake',
+                'game_name': 'Feren23123 TC -- OGC Nice',
+                'standard_name': 'FerenTC -- OGC Nice'
+            },
+            'away_max_odds': { 'odds': 2.3,
+                        'Platform': 'Stake',
+                        'game_name': 'Feren23123 TC -- OGC Nice',
+                        'standard_name': 'FerenTC -- OGC Nice'},
+            'total_odds': 1.2
+        },
+        'Eintracht  -- FK Rigas': {
+            'home_max_odds': {
+                'odds': 2.3,
+                'Platform': 'Stake',
+                'game_name': 'Eintracht  -- FK Rigas',
+                'standard_name': 'Eintracht  -- FK Rigas'
+            },
+            'draw_max_odds': {
+                'odds': 2.3,
+                'Platform': 'Stake',
+                'game_name': 'Eintracht  -- FK Rigas',
+                'standard_name': 'Eintracht  -- FK Rigas'
+            },
+            'away_max_odds': {'odds': 2.3,
+                              'Platform': 'Stake',
+                              'game_name': 'Eintracht  -- FK Rigas',
+                              'standard_name': 'Eintracht  -- FK Rigas'},
+            'total_odds': 0.78
+        }
+    }
+
 
 
     def __init__(self, log_name='UpdateOddsDicts',**kwargs):
@@ -120,7 +160,7 @@ class UpdateOddsDicts(Processor):
         # self.logger.info(one_odds_dict)
         # self.logger.info(f"{json.dumps(one_odds_dict, ensure_ascii=False,indent=4)}")
         if len(one_odds_dict) == 1:
-            pass
+            return None
 
         if len(one_odds_dict) > 1:
             total_odds = 0
@@ -150,19 +190,22 @@ class UpdateOddsDicts(Processor):
                         'game_name': game_info_dict['game_name'],
                         'standard_name':standard_name
                     }
-                    if 'odds' in max_home_odds and 'odds' in max_draw_odds and 'odds' in max_away_odds:
-                        try:
-                            total_odds = (1 / max_home_odds['odds']) + (1 / max_draw_odds['odds']) + (
-                                        1 / max_away_odds['odds'])
-                        except ZeroDivisionError:
-                            total_odds = 0
-                    else:
-                        total_odds = 0
-            self.aggregated_max_odds_dict[standard_name] = {
-                'home_max_odds': max_home_odds,
-                'draw_max_odds': max_draw_odds,
-                'away_max_odds': max_away_odds,
-                'total_odds': total_odds
-            }
+            if all(odds['odds'] > 0 for odds in [max_home_odds, max_draw_odds, max_away_odds]):
+                total_odds = sum(1 / odds['odds'] for odds in [max_home_odds, max_draw_odds, max_away_odds])
+                self.aggregated_max_odds_dict[standard_name] = {
+                    'home_max_odds': max_home_odds,
+                    'draw_max_odds': max_draw_odds,
+                    'away_max_odds': max_away_odds,
+                    'total_odds': total_odds
+                }
+                self.logger.warning(
+                    f"发现套利机会：{json.dumps(self.aggregated_max_odds_dict[standard_name], indent=4, ensure_ascii=False)}")
 
-            self.logger.info(f"{json.dumps(self.aggregated_max_odds_dict[standard_name],indent=4, ensure_ascii=False)}")
+                if 0 < total_odds < 1:
+                    self.betting_queue.put(self.aggregated_max_odds_dict[standard_name])
+                    self.logger.warning(
+                        f"发现套利机会：{json.dumps(self.aggregated_max_odds_dict[standard_name], indent=4, ensure_ascii=False)}")
+            else:
+                self.logger.warning(f"标准名称{standard_name}的赔率存在零或负数，无法计算total_odds。")
+
+            self.logger.debug(f"计算标准名称{standard_name}的赔率：{self.aggregated_max_odds_dict.get(standard_name)}")
