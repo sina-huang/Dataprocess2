@@ -30,7 +30,7 @@ class WebSocketSender(WebSocketThread):
                     if isinstance(message, dict):
                         message = json.dumps(message, ensure_ascii=False)
                     self.ws.send(message)
-                    self.logger.info(f"[{self.name} 发送消息]：{message}")
+                    self.logger.debug(f"[{self.name} 发送消息]：{message}")
                     self.output_queue.task_done()
                 except queue.Empty:
                     continue
@@ -39,3 +39,11 @@ class WebSocketSender(WebSocketThread):
                     time.sleep(1)
             else:
                 time.sleep(0.1)  # 等待连接建立
+
+    def stop(self):
+        self.is_active = False
+        if self.ws:
+            self.ws.close()
+        if self.sender_thread.is_alive():
+            self.sender_thread.join()
+        self.closed_event.set()

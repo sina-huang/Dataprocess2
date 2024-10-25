@@ -198,14 +198,13 @@ class UpdateOddsDicts(Processor):
                     'away_max_odds': max_away_odds,
                     'total_odds': total_odds
                 }
-                self.logger.warning(
-                    f"发现套利机会：{json.dumps(self.aggregated_max_odds_dict[standard_name], indent=4, ensure_ascii=False)}")
+
 
                 if 0 < total_odds < 1:
                     self.betting_queue.put(self.aggregated_max_odds_dict[standard_name])
                     self.logger.warning(
                         f"发现套利机会：{json.dumps(self.aggregated_max_odds_dict[standard_name], indent=4, ensure_ascii=False)}")
             else:
-                self.logger.warning(f"标准名称{standard_name}的赔率存在零或负数，无法计算total_odds。")
+                self.logger.debug(f"标准名称{standard_name}的赔率存在零或负数，无法计算total_odds。")
 
             self.logger.debug(f"计算标准名称{standard_name}的赔率：{self.aggregated_max_odds_dict.get(standard_name)}")

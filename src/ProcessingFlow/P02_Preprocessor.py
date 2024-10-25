@@ -31,12 +31,16 @@ class DataPreprocessor(Processor):
         """
         处理数据。如果通过验证结构检查，就转换赔率并返回数据；否则返回 None。
         """
-        if self.validate_data_structure(data):  # 检查数据结构
-            self.force_numeric_outcomes(data)  # 强制转换赔率字段
-            # self.logger.warning(data)
-            return data  # 验证通过，返回处理后的数据
-        else:
-            return None  # 验证失败，返回 None
+        try:
+            if self.validate_data_structure(data):  # 检查数据结构
+                self.force_numeric_outcomes(data)  # 强制转换赔率字段
+                # self.logger.warning(data)
+                return data  # 验证通过，返回处理后的数据
+            else:
+                return None  # 验证失败，返回 None
+        except Exception as e:
+            self.logger.error(f"[管道02-->数据预处理] 处理数据时发生错误: {e}")
+            return None  # 发生错误，返回 None
 
     def validate_data_structure(self, data):
         """

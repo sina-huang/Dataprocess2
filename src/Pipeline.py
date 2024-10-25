@@ -29,5 +29,10 @@ class Pipeline:
         for processor in self.processors:
             if data is None:
                 return None
-            data = processor.process(data)
+            try:
+                data = processor.process(data)
+            except Exception as e:
+                self.logger.error(f"处理器 {processor.__class__.__name__} 发生异常：{e}")
+                return None
+
         return data

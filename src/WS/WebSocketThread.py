@@ -29,6 +29,9 @@ class WebSocketThread(threading.Thread):
                 self.ws.run_forever()
             except Exception as e:
                 self.logger.error(f"[连接错误]: {e}")
+                if self.ws:
+                    self.ws.close()
+                    self.ws = None
             finally:
                 self.closed_event.wait()
                 if self.is_active:

@@ -75,17 +75,17 @@ class Controller:
         # todo Receiver--开启线程（ws接收者）
         self.receiver_obj = Receiver(url=url_receiver, input_queue=self.input_queue, log_file_name="./Log/Receiver.log")
         self.receiver_obj.start()
-        logger.warning("[进程开启] [01-- 接收者线程启动成功]")
+        logger.info("[进程开启] [01-- 接收者线程启动成功]")
 
         # todo Sender--开启线程（ws发送者）
         self.sender_obj = WebSocketSender(url=url_sender, output_queue=self.output_queue, log_file_name="./Log/Sender.log")
         self.sender_obj.start()
-        logger.warning("[进程开启] [02-- 发送者线程启动成功]")
+        logger.info("[进程开启] [02-- 发送者线程启动成功]")
 
         # todo Betting--开启线程（ws下单者）
         self.ws_sender = WebSocketSender(url=url_betting, output_queue=self.betting_queue, log_file_name="./Log/Betting.log")
         self.ws_sender.start()
-        logger.warning("[进程开启] [03-- 下单者线程启动成功]")
+        logger.info("[进程开启] [03-- 下单者线程启动成功]")
 
         # todo Processor--开启线程（process处理者），程序正式开始执行
         self.processor_thread = threading.Thread(
@@ -93,7 +93,7 @@ class Controller:
             daemon=True
         )
         self.processor_thread.start()
-        logger.warning("[进程开启] [04-- 数据加工线程启动成功]")
+        logger.info("[进程开启] [04-- 数据加工线程启动成功]")
 
     def process_data(self):
 
@@ -103,7 +103,7 @@ class Controller:
             try:
                 message_str = self.input_queue.get(timeout=1)
             except queue.Empty:
-                logger.warning(f"[ 接收者队列为空 ]")
+                logger.debug(f"[ 接收者队列为空 ]")
                 continue
 
             # todo --[step-2]-- 使用管道处理数据
@@ -249,3 +249,15 @@ class Controller:
             spider_data_dict["standardName"] = standard_name
             return spider_data_dict
         return None
+
+    def stop(self):
+        # 停止各个线程
+        if self.receiver_obj:
+            self.receiver_obj.stop()
+        if self.sender_obj:
+            self.sender_obj.stop()
+        if self.ws_sender:
+            self.ws_sender.stop()
+        if self.processor_thread:
+            # 设置标志位或通过其他方式停止线程
+            pass  # 根据具体实现

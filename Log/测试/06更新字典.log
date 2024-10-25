@@ -1,194 +1,44 @@
-2024-10-25 11:34:57 [INFO] [聚合字典更新成功] {
-    "Real Esteli FC -- CS Herediano": {
+2024-10-25 12:09:54 [INFO] [聚合字典更新成功] {
+    "Kaya FC–Iloilo -- Eastern SC": {
         "Rollbit": {
             "Platform": "Rollbit",
-            "league_name": "International Clubs/CONCACAF Central American Cup",
-            "game_name": "Real Esteli FC -- CS Herediano",
-            "home_team_name": "Real Esteli FC",
-            "guest_team_name": "CS Herediano",
-            "home_team_odds": 3.95,
-            "guest_team_odds": 6.25,
-            "draw_odds": 1.52,
-            "standard_name": "Real Esteli FC -- CS Herediano",
+            "league_name": "International Clubs/AFC Champions League Two",
+            "game_name": "Kaya FC–Iloilo -- Eastern SC",
+            "home_team_name": "Kaya FC–Iloilo",
+            "guest_team_name": "Eastern SC",
+            "home_team_odds": 2.85,
+            "guest_team_odds": 2.3,
+            "draw_odds": 3.25,
+            "standard_name": "Kaya FC–Iloilo -- Eastern SC",
             "match_channels": "精确匹配"
         }
     }
 }
-2024-10-25 11:34:57 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 0 场] 
-2024-10-25 11:35:04 [INFO] [聚合字典更新成功] {
-    "Real Esteli FC -- CS Herediano": {
+2024-10-25 12:10:06 [INFO] [聚合字典更新成功] {
+    "Kaya FC–Iloilo -- Eastern SC": {
         "Rollbit": {
             "Platform": "Rollbit",
-            "league_name": "International Clubs/CONCACAF Central American Cup",
-            "game_name": "Real Esteli FC -- CS Herediano",
-            "home_team_name": "Real Esteli FC",
-            "guest_team_name": "CS Herediano",
-            "home_team_odds": 3.95,
-            "guest_team_odds": 6.25,
-            "draw_odds": 1.52,
-            "standard_name": "Real Esteli FC -- CS Herediano",
-            "match_channels": "精确匹配"
-        }
-    },
-    "Atletico Nacional Medellin -- Jaguares de Cordoba": {
-        "Rollbit": {
-            "Platform": "Rollbit",
-            "league_name": "Colombia/Copa Colombia",
-            "game_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
-            "home_team_name": "Atletico Nacional Medellin",
-            "guest_team_name": "Jaguares de Cordoba",
-            "home_team_odds": 0.0,
-            "guest_team_odds": 0.0,
-            "draw_odds": 0.0,
-            "standard_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
-            "match_channels": "精确匹配"
-        }
-    }
-}
-2024-10-25 11:35:04 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 0 场] 
-2024-10-25 11:35:04 [INFO] [聚合字典更新成功] {
-    "Real Esteli FC -- CS Herediano": {
-        "Rollbit": {
-            "Platform": "Rollbit",
-            "league_name": "International Clubs/CONCACAF Central American Cup",
-            "game_name": "Real Esteli FC -- CS Herediano",
-            "home_team_name": "Real Esteli FC",
-            "guest_team_name": "CS Herediano",
-            "home_team_odds": 3.95,
-            "guest_team_odds": 6.25,
-            "draw_odds": 1.52,
-            "standard_name": "Real Esteli FC -- CS Herediano",
-            "match_channels": "精确匹配"
-        }
-    },
-    "Atletico Nacional Medellin -- Jaguares de Cordoba": {
-        "Rollbit": {
-            "Platform": "Rollbit",
-            "league_name": "Colombia/Copa Colombia",
-            "game_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
-            "home_team_name": "Atletico Nacional Medellin",
-            "guest_team_name": "Jaguares de Cordoba",
-            "home_team_odds": 0.0,
-            "guest_team_odds": 0.0,
-            "draw_odds": 0.0,
-            "standard_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
+            "league_name": "International Clubs/AFC Champions League Two",
+            "game_name": "Kaya FC–Iloilo -- Eastern SC",
+            "home_team_name": "Kaya FC–Iloilo",
+            "guest_team_name": "Eastern SC",
+            "home_team_odds": 2.85,
+            "guest_team_odds": 2.3,
+            "draw_odds": 3.25,
+            "standard_name": "Kaya FC–Iloilo -- Eastern SC",
             "match_channels": "精确匹配"
         },
         "Stake": {
             "Platform": "Stake",
-            "league_name": "Colombia/Copa Colombia",
-            "game_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
-            "home_team_name": "Atletico Nacional Medellin",
-            "guest_team_name": "Jaguares de Cordoba",
-            "home_team_odds": 0.0,
-            "guest_team_odds": 0.0,
-            "draw_odds": 0.0,
-            "standard_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
-            "match_channels": "精确匹配"
+            "league_name": "International Clubs/AFC Cup",
+            "game_name": "Kaya FC–Iloilo -- Eastern Sports Club",
+            "home_team_name": "Kaya FC–Iloilo",
+            "guest_team_name": "Eastern Sports Club",
+            "home_team_odds": 2.85,
+            "guest_team_odds": 2.3,
+            "draw_odds": 3.25,
+            "standard_name": "Kaya FC–Iloilo -- Eastern SC",
+            "match_channels": "GPT匹配"
         }
     }
 }
-2024-10-25 11:35:04 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 1 场] 
-2024-10-25 11:35:04 [INFO] [聚合字典更新成功] {
-    "Real Esteli FC -- CS Herediano": {
-        "Rollbit": {
-            "Platform": "Rollbit",
-            "league_name": "International Clubs/CONCACAF Central American Cup",
-            "game_name": "Real Esteli FC -- CS Herediano",
-            "home_team_name": "Real Esteli FC",
-            "guest_team_name": "CS Herediano",
-            "home_team_odds": 3.95,
-            "guest_team_odds": 6.25,
-            "draw_odds": 1.52,
-            "standard_name": "Real Esteli FC -- CS Herediano",
-            "match_channels": "精确匹配"
-        },
-        "Stake": {
-            "Platform": "Stake",
-            "league_name": "International Clubs/CONCACAF Central American Cup",
-            "game_name": "Real Esteli FC -- CS Herediano",
-            "home_team_name": "Real Esteli FC",
-            "guest_team_name": "CS Herediano",
-            "home_team_odds": 3.5,
-            "guest_team_odds": 5.5,
-            "draw_odds": 1.5,
-            "standard_name": "Real Esteli FC -- CS Herediano",
-            "match_channels": "精确匹配"
-        }
-    },
-    "Atletico Nacional Medellin -- Jaguares de Cordoba": {
-        "Rollbit": {
-            "Platform": "Rollbit",
-            "league_name": "Colombia/Copa Colombia",
-            "game_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
-            "home_team_name": "Atletico Nacional Medellin",
-            "guest_team_name": "Jaguares de Cordoba",
-            "home_team_odds": 0.0,
-            "guest_team_odds": 0.0,
-            "draw_odds": 0.0,
-            "standard_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
-            "match_channels": "精确匹配"
-        },
-        "Stake": {
-            "Platform": "Stake",
-            "league_name": "Colombia/Copa Colombia",
-            "game_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
-            "home_team_name": "Atletico Nacional Medellin",
-            "guest_team_name": "Jaguares de Cordoba",
-            "home_team_odds": 0.0,
-            "guest_team_odds": 0.0,
-            "draw_odds": 0.0,
-            "standard_name": "Atletico Nacional Medellin -- Jaguares de Cordoba",
-            "match_channels": "精确匹配"
-        }
-    }
-}
-2024-10-25 11:35:04 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:04 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:04 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:04 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:04 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:04 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:04 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:05 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:05 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:06 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:06 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:08 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:09 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:09 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:09 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:12 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:12 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:12 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:12 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:15 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:15 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:15 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:16 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:18 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:18 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:19 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:19 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:21 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:21 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:21 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:21 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:24 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:24 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:25 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:25 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:27 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:28 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:28 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:28 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:30 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:31 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:31 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:31 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:33 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:34 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:35 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:35 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:36 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 
-2024-10-25 11:35:37 [WARNING] [聚合字典汇总结果] [共找到多平台匹配成功的比赛有： 2 场] 

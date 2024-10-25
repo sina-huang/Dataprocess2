@@ -150,6 +150,6 @@ class UpdateDicts(Processor):
             if len(platforms) >= 2:
                 print(platforms)
                 count += 1  # 满足条件，计数器加 1
-        self.logger.warning(f"[聚合字典汇总结果] [共找到多平台匹配成功的比赛有： {count} 场] ")
+        self.logger.debug(f"[聚合字典汇总结果] [共找到多平台匹配成功的比赛有： {count} 场] ")
 
 

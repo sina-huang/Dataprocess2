@@ -13,21 +13,25 @@ Level: 日志级别，定义了日志的输出级别，DEBUG < INFO < WARNING < 
 """
 
 class DeduplicationFilter(logging.Filter):
-    def __init__(self, deduplicate=True):
+    def __init__(self, deduplicate=True, max_entries=1000):
         super().__init__()
         self.deduplicate = deduplicate
         self.logged_messages = set()
+        self.max_entries = max_entries
 
     def filter(self, record):
         if not self.deduplicate:
-            return True  # 不启用去重，直接记录日志
+            return True
 
         log_entry = (record.levelno, record.getMessage())
         if log_entry in self.logged_messages:
-            return False  # 过滤重复日志
+            return False
         else:
             self.logged_messages.add(log_entry)
-            return True  # 记录新的日志
+            # 限制集合大小
+            if len(self.logged_messages) > self.max_entries:
+                self.logged_messages.pop()
+            return True
 
 
 def get_logger(name, log_file,

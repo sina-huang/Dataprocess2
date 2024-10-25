@@ -1,13 +1,14 @@
-2024-10-25 11:34:57 [WARNING] [这是第 1 次GPT请求]-----------------------------------------------------------------
-2024-10-25 11:34:57 [WARNING] 
+2024-10-25 12:09:57 [WARNING] [这是第 1 次GPT请求]-----------------------------------------------------------------
+2024-10-25 12:09:57 [WARNING] 
 标准列表中的比赛如下:
-[Real Esteli FC -- CS Herediano]
+[Kaya FC–Iloilo -- Eastern SC]
 被匹配的比赛为: 
-[Atletico Nacional Medellin -- Jaguares de Cordoba]
-被匹配比赛所在联赛为: [Colombia/Copa Colombia]
+[Kaya FC–Iloilo -- Eastern Sports Club]
+被匹配比赛所在联赛为: [International Clubs/AFC Cup]
 
-2024-10-25 11:35:04 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 922, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
-2024-10-25 11:35:04 [INFO] [GPT 响应解析] 解析后的内容字典: {
-    "matchResult": "matchFail"
+2024-10-25 12:10:06 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 943, 接收 Tokens 数量: 1196, 费用人民币: 0元1角2分
+2024-10-25 12:10:06 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchSuccess",
+    "matchName": "Kaya FC–Iloilo -- Eastern SC"
 }
-2024-10-25 11:35:04 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-10-25 12:10:06 [WARNING] [GPT 匹配结果] 匹配成功

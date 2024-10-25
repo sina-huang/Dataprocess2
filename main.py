@@ -1,6 +1,6 @@
 import time
 from src.Controler import Controller
-import redis
+import threading
 
 
 if __name__ == "__main__":
@@ -9,10 +9,14 @@ if __name__ == "__main__":
     # r.flushdb()
 
     controller = Controller()
-
+    stop_event = threading.Event()
     try:
-        while True:
+        while not stop_event.is_set():
             time.sleep(1)  # 保持主线程活动
-    except:
+    except KeyboardInterrupt:
+        print("接收到退出信号，正在停止程序...")
+    except Exception as e:
+        print(f"程序发生异常：{e}")
+    finally:
         controller.stop()
-        print("程序结束")
+        print("程序已结束")
