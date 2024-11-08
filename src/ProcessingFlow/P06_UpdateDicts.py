@@ -139,10 +139,6 @@ class UpdateDicts(Processor):
             if len(platforms) > 1:
                 self.logger.warning(f"[聚合字典汇总结果] [匹配成功{len(filtered_result)}] 具体数据： {json.dumps(filtered_result, ensure_ascii=False,indent=4)}")
 
-        # if is_new_entry:
-        #     self.logger.info(f"[聚合字典汇总结果] [匹配成功{len(filtered_result)}] 具体数据： {json.dumps(filtered_result, ensure_ascii=False,indent=4)}")
-        #     self.logger.warning(
-        #         f"[聚合字典汇总结果] [共找到匹对成功的比赛有： {len(filtered_result)} 场] ")
 
     def count_matches_with_more_than_two_platforms(self):
         count = 0  # 初始化计数器

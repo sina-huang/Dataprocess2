@@ -35,9 +35,9 @@ class DeduplicationFilter(logging.Filter):
 
 
 def get_logger(name, log_file,
-               level=logging.INFO,
+               level=logging.WARNING,
                console_level=logging.WARNING,
-               file_mode='w',
+               file_mode='a',
                deduplicate=False):
     """
     获取日志器
@@ -48,8 +48,9 @@ def get_logger(name, log_file,
     logger.setLevel(level)
 
     if not logger.handlers:
-        # 创建文件处理器
-        file_handler = RotatingFileHandler(log_file, mode=file_mode, encoding='utf-8')
+        # 创建文件处理器，设置 maxBytes=15MB，backupCount=0 表示不保留备份，直接覆盖
+        file_handler = RotatingFileHandler(
+            log_file, mode=file_mode, maxBytes=15 * 1024 * 1024, backupCount=0, encoding='utf-8')
         file_formatter = logging.Formatter(
             '%(asctime)s [%(levelname)s] %(message)s',
             datefmt='%Y-%m-%d %H:%M:%S'
@@ -58,13 +59,13 @@ def get_logger(name, log_file,
         logger.addHandler(file_handler)
 
         # 创建控制台处理器
-        console_handler = logging.StreamHandler(sys.stdout)
-        console_handler.setLevel(console_level)
-        console_formatter = logging.Formatter(
-            '[%(levelname)s] [%(name)s] %(message)s'
-        )
-        console_handler.setFormatter(console_formatter)
-        logger.addHandler(console_handler)
+        # console_handler = logging.StreamHandler(sys.stdout)
+        # console_handler.setLevel(console_level)
+        # console_formatter = logging.Formatter(
+        #     '[%(levelname)s] [%(name)s] %(message)s'
+        # )
+        # console_handler.setFormatter(console_formatter)
+        # logger.addHandler(console_handler)
 
         # 添加去重过滤器（如果启用）
         if deduplicate:
@@ -75,6 +76,7 @@ def get_logger(name, log_file,
         logger.propagate = False
 
     return logger
+
 
 if __name__ == '__main__':
     logger = get_logger(

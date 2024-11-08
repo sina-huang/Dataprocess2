@@ -20,7 +20,8 @@ from src.ProcessingFlow.P04_MathFuzzy import MatchFuzzy
 from src.ProcessingFlow.P05_MatchGPT import MatchGPT
 from src.ProcessingFlow.P06_UpdateDicts import UpdateDicts
 from src.ProcessingFlow.P07_UpdateOddsDict import UpdateOddsDicts
-from src.ProcessingFlow.P08_CalculateOdssLess1 import CalculateOddsLess1
+# from src.ProcessingFlow.P08_CalculateOdssLess1 import CalculateOddsLess1
+from src.ProcessingFlow.p09_CalculateOddsLess1_1 import CalculateOddsLess1
 
 
 
@@ -66,7 +67,8 @@ class Controller:
         self.pipeline.add_processor(MatchGPT, log_name='./Log/测试/05gpt匹配.log')
         self.pipeline.add_processor(UpdateDicts, log_name='./Log/测试/06更新字典.log')
         self.pipeline.add_processor(UpdateOddsDicts,log_name='./Log/测试/07更新赔率字典.log')
-        self.pipeline.add_processor(CalculateOddsLess1, log_name='./Log/测试/08计算赔率小于1.log')
+        # self.pipeline.add_processor(CalculateOddsLess1, log_name='./Log/测试/08计算赔率小于1.log')
+        self.pipeline.add_processor(CalculateOddsLess1, log_name='./Log/测试/09计算赔率小于1.log')  # 新添加的处理器
 
 
 

@@ -156,3 +156,5 @@ GPT_DESC_TEMPLATE = Template("""
 
 SLEEP_TIME = 1
 
+TOTAL_BET = 100
+

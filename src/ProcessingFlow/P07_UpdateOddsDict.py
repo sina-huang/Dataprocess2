@@ -174,21 +174,34 @@ class UpdateOddsDicts(Processor):
                         'odds': game_info_dict['home_team_odds'],
                         'Platform': platform,
                         'game_name': game_info_dict['game_name'],
-                        'standard_name':standard_name
+                        'standard_name':standard_name,
+
+                        'platform_name':platform,
+                        'home_team': game_info_dict['home_team_name'],
+                        'guest_team': game_info_dict['guest_team_name'],
+                        #'betting_team_name':game_info_dict['home_team_name'], 这里会在自动化投注的配置，现在就先不配置了
                     }
                 if game_info_dict['draw_odds'] > max_draw_odds['odds']:
                     max_draw_odds = {
                         'odds': game_info_dict['draw_odds'],
                         'Platform': platform,
                         'game_name': game_info_dict['game_name'],
-                        'standard_name':standard_name
+                        'standard_name':standard_name,
+                        'platform_name': platform,
+                        'home_team': game_info_dict['home_team_name'],
+                        'guest_team': game_info_dict['guest_team_name'],
+                        # 'betting_team_name':game_info_dict['home_team_name'], 这里会在自动化投注的配置，现在就先不配置了
                     }
                 if game_info_dict['guest_team_odds'] > max_away_odds['odds']:
                     max_away_odds = {
                         'odds': game_info_dict['guest_team_odds'],
                         'Platform': platform,
                         'game_name': game_info_dict['game_name'],
-                        'standard_name':standard_name
+                        'standard_name':standard_name,
+                        'platform_name': platform,
+                        'home_team': game_info_dict['home_team_name'],
+                        'guest_team': game_info_dict['guest_team_name'],
+                        # 'betting_team_name':game_info_dict['home_team_name'], 这里会在自动化投注的配置，现在就先不配置了
                     }
             if all(odds['odds'] > 0 for odds in [max_home_odds, max_draw_odds, max_away_odds]):
                 total_odds = sum(1 / odds['odds'] for odds in [max_home_odds, max_draw_odds, max_away_odds])
@@ -200,10 +213,10 @@ class UpdateOddsDicts(Processor):
                 }
 
 
-                if 0 < total_odds < 1:
-                    self.betting_queue.put(self.aggregated_max_odds_dict[standard_name])
-                    self.logger.warning(
-                        f"发现套利机会：{json.dumps(self.aggregated_max_odds_dict[standard_name], indent=4, ensure_ascii=False)}")
+                # if 0 < total_odds < 1:
+                #     self.betting_queue.put(self.aggregated_max_odds_dict[standard_name])
+                #     self.logger.warning(
+                #         f"发现套利机会：{json.dumps(self.aggregated_max_odds_dict[standard_name], indent=4, ensure_ascii=False)}")
             else:
                 self.logger.debug(f"标准名称{standard_name}的赔率存在零或负数，无法计算total_odds。")
 

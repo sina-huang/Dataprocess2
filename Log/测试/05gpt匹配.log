@@ -1,14 +1,1197 @@
-2024-10-25 12:09:57 [WARNING] [这是第 1 次GPT请求]-----------------------------------------------------------------
-2024-10-25 12:09:57 [WARNING] 
+2024-11-09 04:17:05 [WARNING] [这是第 1 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:05 [WARNING] 
 标准列表中的比赛如下:
-[Kaya FC–Iloilo -- Eastern SC]
+[Stade Lavallois Mayenne -- SC Bastia]
 被匹配的比赛为: 
-[Kaya FC–Iloilo -- Eastern Sports Club]
-被匹配比赛所在联赛为: [International Clubs/AFC Cup]
+[Aubagne FC -- Le Mans FC]
+被匹配比赛所在联赛为: [France / National]
 
-2024-10-25 12:10:06 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 943, 接收 Tokens 数量: 1196, 费用人民币: 0元1角2分
-2024-10-25 12:10:06 [INFO] [GPT 响应解析] 解析后的内容字典: {
-    "matchResult": "matchSuccess",
-    "matchName": "Kaya FC–Iloilo -- Eastern SC"
+2024-11-09 04:17:09 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 937, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:17:09 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
 }
-2024-10-25 12:10:06 [WARNING] [GPT 匹配结果] 匹配成功
+2024-11-09 04:17:09 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:09 [WARNING] [这是第 2 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:09 [WARNING] 
+标准列表中的比赛如下:
+[Nancy-Lorraine -- Paris 13 Atletico]
+[Stade Lavallois Mayenne -- SC Bastia]
+[Rodez Aveyron Football -- Annecy FC]
+被匹配的比赛为: 
+[FC Rouen -- US Boulogne]
+被匹配比赛所在联赛为: [France / National]
+
+2024-11-09 04:17:14 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 989, 接收 Tokens 数量: 667, 费用人民币: 0元0角8分
+2024-11-09 04:17:14 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:14 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:14 [WARNING] [这是第 3 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:14 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[FC Versailles 78 -- Sochaux-Montbeliard]
+被匹配比赛所在联赛为: [France / National]
+
+2024-11-09 04:17:19 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 962, 接收 Tokens 数量: 603, 费用人民币: 0元0角7分
+2024-11-09 04:17:19 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:19 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:19 [WARNING] [这是第 4 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:19 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[FC Villefranche-Beaujolais -- LB Chateauroux]
+被匹配比赛所在联赛为: [France / National]
+
+2024-11-09 04:17:23 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 987, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:17:23 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:23 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:23 [WARNING] [这是第 5 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:23 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Nimes Olympique -- Quevilly-Rouen Metropole]
+被匹配比赛所在联赛为: [France / National]
+
+2024-11-09 04:17:28 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 987, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
+2024-11-09 04:17:28 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:28 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:28 [WARNING] [这是第 6 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:28 [WARNING] 
+标准列表中的比赛如下:
+[Nancy-Lorraine -- Paris 13 Atletico]
+[Stade Lavallois Mayenne -- SC Bastia]
+[Rodez Aveyron Football -- Annecy FC]
+被匹配的比赛为: 
+[US Lecce -- Empoli FC]
+被匹配比赛所在联赛为: [Italy/Serie A]
+
+2024-11-09 04:17:31 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 989, 接收 Tokens 数量: 219, 费用人民币: 0元0角4分
+2024-11-09 04:17:31 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:31 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:31 [WARNING] [这是第 7 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:31 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[Nancy-Lorraine -- Paris 13 Atletico]
+[Stade Lavallois Mayenne -- SC Bastia]
+[SC Amiens -- FC Martigues]
+[Rodez Aveyron Football -- Annecy FC]
+被匹配的比赛为: 
+[Valenciennes FC -- Football Bourg-En-Bresse Peronnas 01]
+被匹配比赛所在联赛为: [France / National]
+
+2024-11-09 04:17:35 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 1043, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
+2024-11-09 04:17:35 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:35 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:35 [WARNING] [这是第 8 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:35 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[St. Truidense VV -- Yellow-Red KV Mechelen]
+被匹配比赛所在联赛为: [Belgium/Pro League]
+
+2024-11-09 04:17:39 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 990, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:17:39 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:39 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:39 [WARNING] [这是第 9 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:39 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+被匹配的比赛为: 
+[Pogon Szczecin -- RKS Radomiak Radom]
+被匹配比赛所在联赛为: [Poland/Ekstraklasa]
+
+2024-11-09 04:17:42 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 942, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:17:42 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:42 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:42 [WARNING] [这是第 10 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:42 [WARNING] 
+标准列表中的比赛如下:
+[Nancy-Lorraine -- Paris 13 Atletico]
+[Stade Lavallois Mayenne -- SC Bastia]
+[Rodez Aveyron Football -- Annecy FC]
+被匹配的比赛为: 
+[Elche CF -- UD Almeria]
+被匹配比赛所在联赛为: [Spain/LaLiga 2]
+
+2024-11-09 04:17:47 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 992, 接收 Tokens 数量: 603, 费用人民币: 0元0角7分
+2024-11-09 04:17:47 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:47 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:48 [WARNING] [这是第 11 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:48 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[FC Dinamo Bucuresti 1948 -- FC CFR 1907 Cluj]
+被匹配比赛所在联赛为: [Romania/Superliga]
+
+2024-11-09 04:17:51 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 992, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:17:51 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:17:51 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:17:51 [WARNING] [这是第 12 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:51 [WARNING] 
+标准列表中的比赛如下:
+[Rodez Aveyron Football -- Annecy FC]
+被匹配的比赛为: 
+[Rodez Aveyron Football -- FC Annecy]
+被匹配比赛所在联赛为: [France/Ligue 2]
+
+2024-11-09 04:17:54 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 942, 接收 Tokens 数量: 301, 费用人民币: 0元0角5分
+2024-11-09 04:17:54 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchSuccess",
+    "matchName": "Rodez Aveyron Football -- Annecy FC"
+}
+2024-11-09 04:17:54 [WARNING] [GPT 匹配结果] 匹配成功
+2024-11-09 04:17:54 [WARNING] [这是第 13 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:54 [WARNING] 
+标准列表中的比赛如下:
+[Stade Lavallois Mayenne -- SC Bastia]
+被匹配的比赛为: 
+[Stade Lavallois MFC -- SC Bastia]
+被匹配比赛所在联赛为: [France/Ligue 2]
+
+2024-11-09 04:17:58 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 942, 接收 Tokens 数量: 493, 费用人民币: 0元0角6分
+2024-11-09 04:17:58 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchSuccess",
+    "matchName": "Stade Lavallois Mayenne -- SC Bastia"
+}
+2024-11-09 04:17:58 [WARNING] [GPT 匹配结果] 匹配成功
+2024-11-09 04:17:58 [WARNING] [这是第 14 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:17:58 [WARNING] 
+标准列表中的比赛如下:
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[Amiens SC -- FC Martigues]
+被匹配比赛所在联赛为: [France/Ligue 2]
+
+2024-11-09 04:18:01 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 937, 接收 Tokens 数量: 362, 费用人民币: 0元0角5分
+2024-11-09 04:18:01 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchSuccess",
+    "matchName": "SC Amiens -- FC Martigues"
+}
+2024-11-09 04:18:02 [WARNING] [GPT 匹配结果] 匹配成功
+2024-11-09 04:18:02 [WARNING] [这是第 15 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:02 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[CODM Meknes -- Difaa Hassani d'el-Jadida]
+被匹配比赛所在联赛为: [Morocco/Botola Pro D1]
+
+2024-11-09 04:18:06 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 968, 接收 Tokens 数量: 603, 费用人民币: 0元0角7分
+2024-11-09 04:18:06 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:06 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:06 [WARNING] [这是第 16 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:06 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[FC Villefranche Beaujolais -- LB Chateauroux]
+被匹配比赛所在联赛为: [France/National]
+
+2024-11-09 04:18:11 [ERROR] [GPT 请求] 发生异常：Response ended prematurely
+2024-11-09 04:18:11 [WARNING] [这是第 17 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:11 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[FC Villefranche Beaujolais -- LB Chateauroux]
+被匹配比赛所在联赛为: [France/National]
+
+2024-11-09 04:18:18 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 987, 接收 Tokens 数量: 603, 费用人民币: 0元0角7分
+2024-11-09 04:18:18 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:18 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:18 [WARNING] [这是第 18 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:18 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Nyiregyhaza Spartacus FC -- MTK Budapest FC]
+被匹配比赛所在联赛为: [Hungary / NB I]
+
+2024-11-09 04:18:22 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 989, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:18:22 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:22 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:22 [WARNING] [这是第 19 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:22 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Tolka Rovers AFC -- Killester Donnycarney FC]
+被匹配比赛所在联赛为: [Ireland / Leinster Senior League, Senior Division]
+
+2024-11-09 04:18:26 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 993, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:18:26 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:26 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:26 [WARNING] [这是第 20 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:26 [WARNING] 
+标准列表中的比赛如下:
+[Nancy-Lorraine -- Paris 13 Atletico]
+[Stade Lavallois Mayenne -- SC Bastia]
+[Rodez Aveyron Football -- Annecy FC]
+被匹配的比赛为: 
+[US Lecce -- FC Empoli]
+被匹配比赛所在联赛为: [Italy/Serie A]
+
+2024-11-09 04:18:30 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 989, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:18:30 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:30 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:30 [WARNING] [这是第 21 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:30 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Maynooth University Town FC -- Bluebell United FC]
+被匹配比赛所在联赛为: [Ireland / Leinster Senior League, Senior Division]
+
+2024-11-09 04:18:34 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 991, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:18:34 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:34 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:34 [WARNING] [这是第 22 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:34 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[FC Pro Vercelli 1892 -- Asd Alcione Milano]
+被匹配比赛所在联赛为: [Italy / Serie C]
+
+2024-11-09 04:18:40 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 989, 接收 Tokens 数量: 539, 费用人民币: 0元0角7分
+2024-11-09 04:18:40 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:40 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:40 [WARNING] [这是第 23 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:40 [WARNING] 
+标准列表中的比赛如下:
+[Stade Lavallois Mayenne -- SC Bastia]
+被匹配的比赛为: 
+[AC Trento -- Feralpisalo]
+被匹配比赛所在联赛为: [Italy / Serie C]
+
+2024-11-09 04:18:44 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 938, 接收 Tokens 数量: 283, 费用人民币: 0元0角4分
+2024-11-09 04:18:44 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:44 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:44 [WARNING] [这是第 24 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:44 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Triestina Calcio 1918 -- AS Giana Erminio]
+被匹配比赛所在联赛为: [Italy / Serie C]
+
+2024-11-09 04:18:47 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 990, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:18:47 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:47 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:47 [WARNING] [这是第 25 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:47 [WARNING] 
+标准列表中的比赛如下:
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Red Star FC -- ESTAC Troyes]
+被匹配比赛所在联赛为: [France/Ligue 2]
+
+2024-11-09 04:18:53 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 936, 接收 Tokens 数量: 426, 费用人民币: 0元0角6分
+2024-11-09 04:18:53 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchSuccess",
+    "matchName": "Red Star FC -- ES Troyes AC"
+}
+2024-11-09 04:18:53 [WARNING] [GPT 匹配结果] 匹配成功
+2024-11-09 04:18:53 [WARNING] [这是第 26 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:53 [WARNING] 
+标准列表中的比赛如下:
+[Nancy-Lorraine -- Paris 13 Atletico]
+[Stade Lavallois Mayenne -- SC Bastia]
+[Rodez Aveyron Football -- Annecy FC]
+被匹配的比赛为: 
+[TOP Oss -- FC Den Bosch]
+被匹配比赛所在联赛为: [Netherlands / Eerste Divisie]
+
+2024-11-09 04:18:58 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 990, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
+2024-11-09 04:18:58 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:18:58 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:18:58 [WARNING] [这是第 27 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:18:58 [WARNING] 
+标准列表中的比赛如下:
+[Stade Lavallois Mayenne -- SC Bastia]
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[Stade Lavallois Mayenne FC -- SC Bastia]
+被匹配比赛所在联赛为: [France/Ligue 2]
+
+2024-11-09 04:19:01 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 991, 接收 Tokens 数量: 365, 费用人民币: 0元0角5分
+2024-11-09 04:19:01 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchSuccess",
+    "matchName": "Stade Lavallois Mayenne -- SC Bastia"
+}
+2024-11-09 04:19:01 [WARNING] [GPT 匹配结果] 匹配成功
+2024-11-09 04:19:01 [WARNING] [这是第 28 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:01 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[First Vienna FC -- SC Austria Lustenau]
+被匹配比赛所在联赛为: [Austria/2. Liga]
+
+2024-11-09 04:19:05 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 961, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:19:05 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:05 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:05 [WARNING] [这是第 29 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:05 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+被匹配的比赛为: 
+[MKS Pogon Szczecin -- Radomiak Radom]
+被匹配比赛所在联赛为: [Poland / Ekstraklasa]
+
+2024-11-09 04:19:08 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 942, 接收 Tokens 数量: 219, 费用人民币: 0元0角4分
+2024-11-09 04:19:08 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:08 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:08 [WARNING] [这是第 30 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:08 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Andrezieux Boutheon -- Angouleme Charente FC]
+被匹配比赛所在联赛为: [France/National 2]
+
+2024-11-09 04:19:13 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 988, 接收 Tokens 数量: 668, 费用人民币: 0元0角8分
+2024-11-09 04:19:13 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:13 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:13 [WARNING] [这是第 31 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:13 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Olympique Nimes -- US Quevilly-Rouen Metropole]
+被匹配比赛所在联赛为: [France/National]
+
+2024-11-09 04:19:18 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 988, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:19:18 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:18 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:18 [WARNING] [这是第 32 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:18 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[FC Versailles 78 -- FC Sochaux-Montbeliard]
+被匹配比赛所在联赛为: [France/National]
+
+2024-11-09 04:19:24 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 988, 接收 Tokens 数量: 795, 费用人民币: 0元0角9分
+2024-11-09 04:19:24 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:24 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:24 [WARNING] [这是第 33 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:24 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Stade Lausanne Ouchy -- FC Stade Nyonnais]
+被匹配比赛所在联赛为: [Switzerland / Challenge League]
+
+2024-11-09 04:19:28 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 988, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:19:28 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:28 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:28 [WARNING] [这是第 34 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:28 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[FC Femina White Star Woluwe -- Dv Famkes Merkem]
+被匹配比赛所在联赛为: [Belgium/Division 1, Women]
+
+2024-11-09 04:19:33 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 993, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
+2024-11-09 04:19:33 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:33 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:33 [WARNING] [这是第 35 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:33 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[Lierse Kempenzonen -- Sporting Lokeren]
+被匹配比赛所在联赛为: [Belgium / First Division B]
+
+2024-11-09 04:19:36 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 963, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:19:36 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:36 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:36 [WARNING] [这是第 36 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:36 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Waasland Beveren -- Jeugd Union Saint Gilloise]
+被匹配比赛所在联赛为: [Belgium / U21 Pro League]
+
+2024-11-09 04:19:40 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 991, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:19:40 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:40 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:40 [WARNING] [这是第 37 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:40 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[Sporting Lokeren -- Raal La Louviere U21]
+被匹配比赛所在联赛为: [Belgium / U21 Pro League]
+
+2024-11-09 04:19:44 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 966, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:19:44 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:44 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:44 [WARNING] [这是第 38 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:44 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Atletico Clube Goianiense U20 -- Trindade GO]
+被匹配比赛所在联赛为: [Brazil / U20 Copa Goiano]
+
+2024-11-09 04:19:48 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 992, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:19:48 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:48 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:48 [WARNING] [这是第 39 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:48 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Arsenal WFC -- Brighton and Hove Albion WFC]
+被匹配比赛所在联赛为: [England / The FA Women's Super League]
+
+2024-11-09 04:19:53 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 990, 接收 Tokens 数量: 731, 费用人民币: 0元0角8分
+2024-11-09 04:19:53 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:53 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:54 [WARNING] [这是第 40 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:54 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+被匹配的比赛为: 
+[Moreirense FC -- Gil Vicente Barcelos]
+被匹配比赛所在联赛为: [Portugal/Primeira Liga]
+
+2024-11-09 04:19:57 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 935, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:19:57 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:19:57 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:19:57 [WARNING] [这是第 41 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:19:57 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Manchester City WFC -- Tottenham Hotspur FC Women]
+被匹配比赛所在联赛为: [England / The FA Women's Super League]
+
+2024-11-09 04:20:00 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 988, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:20:00 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:00 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:20:00 [WARNING] [这是第 42 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:00 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Brighton And Hove Albion U21 -- Luton Town Reserves]
+被匹配比赛所在联赛为: [England / Premier League Cup U21]
+
+2024-11-09 04:20:04 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 992, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:20:04 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:04 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:20:04 [WARNING] [这是第 43 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:04 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Coventry City U21 -- Leicester City FC U21]
+被匹配比赛所在联赛为: [England / Premier League Cup U21]
+
+2024-11-09 04:20:07 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 989, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:20:07 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:07 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:20:07 [WARNING] [这是第 44 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:07 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Nottingham Forest FC U21 -- Hull City U21]
+被匹配比赛所在联赛为: [England / Premier League Cup U21]
+
+2024-11-09 04:20:11 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 989, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:20:11 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:11 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:20:12 [WARNING] [这是第 45 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:12 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[Lierse Kempenzonen -- KSC Lokeren Temse]
+被匹配比赛所在联赛为: [Belgium/First Division B]
+
+2024-11-09 04:20:15 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 966, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:20:15 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:15 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:20:15 [WARNING] [这是第 46 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:15 [WARNING] 
+标准列表中的比赛如下:
+[Rodez Aveyron Football -- Annecy FC]
+被匹配的比赛为: 
+[Rodez Aveyron -- Annecy FC]
+被匹配比赛所在联赛为: [France/Ligue 2]
+
+2024-11-09 04:20:21 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 941, 接收 Tokens 数量: 749, 费用人民币: 0元0角9分
+2024-11-09 04:20:21 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchSuccess",
+    "matchName": "Rodez Aveyron Football -- Annecy FC"
+}
+2024-11-09 04:20:21 [WARNING] [GPT 匹配结果] 匹配成功
+2024-11-09 04:20:21 [WARNING] [这是第 47 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:21 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[US Triestina Calcio 1918 -- AS Giana Erminio]
+被匹配比赛所在联赛为: [Italy/Serie C, Group A]
+
+2024-11-09 04:20:27 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 994, 接收 Tokens 数量: 667, 费用人民币: 0元0角8分
+2024-11-09 04:20:27 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:27 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:20:27 [WARNING] [这是第 48 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:27 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[CODM Meknes -- DHJ Difaa Hassani Jdidi]
+被匹配比赛所在联赛为: [Morocco/Botola]
+
+2024-11-09 04:20:30 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 965, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:20:30 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:30 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:20:30 [WARNING] [这是第 49 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:30 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+[Red Star FC -- ES Troyes AC]
+被匹配的比赛为: 
+[Ballymacash Rangers -- Lisburn Distillery FC]
+被匹配比赛所在联赛为: [Northern Ireland/Intermediate League 1st Division]
+
+2024-11-09 04:20:34 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 991, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:20:34 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:34 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:20:34 [WARNING] [这是第 50 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:34 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[Nancy-Lorraine -- Paris 13 Atletico]
+[Stade Lavallois Mayenne -- SC Bastia]
+[SC Amiens -- FC Martigues]
+[Rodez Aveyron Football -- Annecy FC]
+被匹配的比赛为: 
+[Sociedad Deportivo Tarazona -- Gimnastica Segoviana CF]
+被匹配比赛所在联赛为: [Spain/Primera Division RFEF]
+
+2024-11-09 04:20:38 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 1048, 接收 Tokens 数量: 539, 费用人民币: 0元0角7分
+2024-11-09 04:20:38 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:38 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:20:38 [WARNING] [这是第 51 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:20:38 [WARNING] 
+标准列表中的比赛如下:
+[Aubagne FC -- Le Mans FC]
+[SC Amiens -- FC Martigues]
+被匹配的比赛为: 
+[FC Stade Ls Ouchy -- FC Stade Nyonnais]
+被匹配比赛所在联赛为: [Switzerland/Challenge League]
+
+2024-11-09 04:20:43 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 964, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
+2024-11-09 04:20:43 [INFO] [GPT 响应解析] 解析后的内容字典: {
+    "matchResult": "matchFail"
+}
+2024-11-09 04:20:43 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:36:59 [WARNING] [这是第 1 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:36:59 [WARNING] 
+标准列表中的比赛如下:
+[Greenock Morton FC -- Ayr United FC]
+[MKS Pogon Szczecin -- Radomiak Radom]
+[MVV Maastricht -- De Graafschap]
+被匹配的比赛为: 
+[Sociedad Deportivo Tarazona -- Gimnastica Segoviana CF]
+被匹配比赛所在联赛为: [Spain/Primera Division RFEF]
+
+2024-11-09 04:37:04 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 1004, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
+2024-11-09 04:37:04 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:04 [WARNING] [这是第 2 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:04 [WARNING] 
+标准列表中的比赛如下:
+[Sociedad Deportivo Tarazona -- Gimnastica Segoviana CF]
+[FC Dinamo Bucuresti 1948 -- FC CFR 1907 Cluj]
+[Ballymacash Rangers -- Lisburn Distillery FC]
+被匹配的比赛为: 
+[Real Madrid B -- CF Intercity]
+被匹配比赛所在联赛为: [Spain/Primera Division RFEF]
+
+2024-11-09 04:37:09 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 1012, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
+2024-11-09 04:37:09 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:09 [WARNING] [这是第 3 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:09 [WARNING] 
+标准列表中的比赛如下:
+[Sociedad Deportivo Tarazona -- Gimnastica Segoviana CF]
+被匹配的比赛为: 
+[FC Vaduz -- Neuchatel Xamax FCS]
+被匹配比赛所在联赛为: [Switzerland/Challenge League]
+
+2024-11-09 04:37:21 [WARNING] [这是第 1 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:21 [WARNING] 
+标准列表中的比赛如下:
+[Pogon Szczecin -- RKS Radomiak Radom]
+被匹配的比赛为: 
+[TOP Oss -- FC Den Bosch]
+被匹配比赛所在联赛为: [Netherlands/Eerste Divisie]
+
+2024-11-09 04:37:25 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 943, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:37:25 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:25 [WARNING] [这是第 2 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:25 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Nyiregyhaza Spartacus FC -- MTK Budapest]
+被匹配比赛所在联赛为: [Hungary/NB I]
+
+2024-11-09 04:37:29 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 939, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
+2024-11-09 04:37:29 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:29 [WARNING] [这是第 3 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:29 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Nyiregyhaza Spartacus FC -- MTK Budapest FC]
+被匹配比赛所在联赛为: [Hungary / NB I]
+
+2024-11-09 04:37:33 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 962, 接收 Tokens 数量: 539, 费用人民币: 0元0角7分
+2024-11-09 04:37:33 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:33 [WARNING] [这是第 4 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:33 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Tolka Rovers AFC -- Killester Donnycarney FC]
+被匹配比赛所在联赛为: [Ireland / Leinster Senior League, Senior Division]
+
+2024-11-09 04:37:37 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 966, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:37:37 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:37 [WARNING] [这是第 5 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:37 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[AC Ajaccio -- Clermont Foot 63]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Maynooth University Town FC -- Bluebell United FC]
+被匹配比赛所在联赛为: [Ireland / Leinster Senior League, Senior Division]
+
+2024-11-09 04:37:40 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 989, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:37:40 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:40 [WARNING] [这是第 6 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:40 [WARNING] 
+标准列表中的比赛如下:
+[Pogon Szczecin -- RKS Radomiak Radom]
+被匹配的比赛为: 
+[US Lecce -- FC Empoli]
+被匹配比赛所在联赛为: [Italy / Serie A]
+
+2024-11-09 04:37:43 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 942, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:37:43 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:43 [WARNING] [这是第 7 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:43 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[FC Pro Vercelli 1892 -- Asd Alcione Milano]
+被匹配比赛所在联赛为: [Italy / Serie C]
+
+2024-11-09 04:37:47 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 962, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:37:47 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:47 [WARNING] [这是第 8 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:47 [WARNING] 
+标准列表中的比赛如下:
+[Pogon Szczecin -- RKS Radomiak Radom]
+被匹配的比赛为: 
+[AC Trento -- Feralpisalo]
+被匹配比赛所在联赛为: [Italy / Serie C]
+
+2024-11-09 04:37:50 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 943, 接收 Tokens 数量: 219, 费用人民币: 0元0角4分
+2024-11-09 04:37:50 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:50 [WARNING] [这是第 9 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:50 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Triestina Calcio 1918 -- AS Giana Erminio]
+被匹配比赛所在联赛为: [Italy / Serie C]
+
+2024-11-09 04:37:53 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 941, 接收 Tokens 数量: 283, 费用人民币: 0元0角4分
+2024-11-09 04:37:53 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:53 [WARNING] [这是第 10 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:53 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[CODM Meknes -- Difaa Hassani d'el-Jadida]
+被匹配比赛所在联赛为: [Morocco / Botola]
+
+2024-11-09 04:37:56 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 941, 接收 Tokens 数量: 219, 费用人民币: 0元0角4分
+2024-11-09 04:37:56 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:37:56 [WARNING] [这是第 11 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:37:56 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[US Triestina Calcio 1918 -- AS Giana Erminio]
+被匹配比赛所在联赛为: [51 ']
+
+2024-11-09 04:38:00 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 962, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:38:00 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:00 [WARNING] [这是第 12 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:00 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Excelsior Rotterdam -- FC Eindhoven]
+被匹配比赛所在联赛为: [Netherlands / Eerste Divisie]
+
+2024-11-09 04:38:04 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 935, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:38:04 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:04 [WARNING] [这是第 13 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:04 [WARNING] 
+标准列表中的比赛如下:
+[Pogon Szczecin -- RKS Radomiak Radom]
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[MKS Pogon Szczecin -- Radomiak Radom]
+被匹配比赛所在联赛为: [Poland / Ekstraklasa]
+
+2024-11-09 04:38:10 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 976, 接收 Tokens 数量: 751, 费用人民币: 0元0角9分
+2024-11-09 04:38:10 [WARNING] [GPT 匹配结果] 匹配成功
+2024-11-09 04:38:10 [WARNING] [这是第 14 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:10 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[FC Dinamo Bucuresti 1948 -- FC CFR 1907 Cluj]
+被匹配比赛所在联赛为: [Romania / Liga I]
+
+2024-11-09 04:38:19 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 965, 接收 Tokens 数量: 539, 费用人民币: 0元0角7分
+2024-11-09 04:38:19 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:19 [WARNING] [这是第 15 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:19 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Greenock Morton FC -- Ayr United FC]
+被匹配比赛所在联赛为: [Scotland / Championship]
+
+2024-11-09 04:38:22 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 934, 接收 Tokens 数量: 283, 费用人民币: 0元0角4分
+2024-11-09 04:38:22 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:22 [WARNING] [这是第 16 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:22 [WARNING] 
+标准列表中的比赛如下:
+[Pogon Szczecin -- RKS Radomiak Radom]
+被匹配的比赛为: 
+[Elche CF -- UD Almeria]
+被匹配比赛所在联赛为: [Spain / LaLiga 2]
+
+2024-11-09 04:38:25 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 945, 接收 Tokens 数量: 219, 费用人民币: 0元0角4分
+2024-11-09 04:38:25 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:25 [WARNING] [这是第 17 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:25 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[CODM Meknes -- DHJ Difaa Hassani Jdidi]
+被匹配比赛所在联赛为: [73 ']
+
+2024-11-09 04:38:28 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 938, 接收 Tokens 数量: 283, 费用人民币: 0元0角4分
+2024-11-09 04:38:28 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:29 [WARNING] [这是第 18 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:29 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Ballymacash Rangers -- Lisburn Distillery FC]
+被匹配比赛所在联赛为: [1]
+
+2024-11-09 04:38:33 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 956, 接收 Tokens 数量: 603, 费用人民币: 0元0角7分
+2024-11-09 04:38:33 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:33 [WARNING] [这是第 19 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:33 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[AC Ajaccio -- Clermont Foot 63]
+[Pogon Szczecin -- RKS Radomiak Radom]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Sociedad Deportivo Tarazona -- Gimnastica Segoviana CF]
+被匹配比赛所在联赛为: [0]
+
+2024-11-09 04:38:38 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 1017, 接收 Tokens 数量: 539, 费用人民币: 0元0角7分
+2024-11-09 04:38:38 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:38 [WARNING] [这是第 20 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:38 [WARNING] 
+标准列表中的比赛如下:
+[Pogon Szczecin -- RKS Radomiak Radom]
+被匹配的比赛为: 
+[US Lecce -- Empoli FC]
+被匹配比赛所在联赛为: [Italy/Serie A]
+
+2024-11-09 04:38:42 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 942, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:38:42 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:42 [WARNING] [这是第 21 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:42 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Moreirense FC -- Gil Vicente Barcelos]
+被匹配比赛所在联赛为: [Portugal/Primeira Liga]
+
+2024-11-09 04:38:45 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 936, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:38:45 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:45 [WARNING] [这是第 22 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:45 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[St. Truidense VV -- Yellow-Red KV Mechelen]
+被匹配比赛所在联赛为: [Belgium/Pro League]
+
+2024-11-09 04:38:51 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 963, 接收 Tokens 数量: 667, 费用人民币: 0元0角8分
+2024-11-09 04:38:51 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:51 [WARNING] [这是第 23 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:51 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Rodez Aveyron Football -- FC Annecy]
+被匹配比赛所在联赛为: [France/Ligue 2]
+
+2024-11-09 04:38:54 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 938, 接收 Tokens 数量: 283, 费用人民币: 0元0角4分
+2024-11-09 04:38:54 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:54 [WARNING] [这是第 24 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:54 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[First Vienna FC -- Austria Lustenau]
+被匹配比赛所在联赛为: [Austria / 2. Liga]
+
+2024-11-09 04:38:57 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 937, 接收 Tokens 数量: 283, 费用人民币: 0元0角4分
+2024-11-09 04:38:57 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:38:57 [WARNING] [这是第 25 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:38:57 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Lierse Kempenzonen -- Sporting Lokeren]
+被匹配比赛所在联赛为: [Belgium / First Division B]
+
+2024-11-09 04:39:02 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 939, 接收 Tokens 数量: 603, 费用人民币: 0元0角7分
+2024-11-09 04:39:02 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:02 [WARNING] [这是第 26 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:02 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[AC Ajaccio -- Clermont Foot 63]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[FC Femina White Star Woluwe -- Dv Famkes Merkem]
+被匹配比赛所在联赛为: [47 ']
+
+2024-11-09 04:39:06 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 985, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:39:06 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:06 [WARNING] [这是第 27 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:06 [WARNING] 
+标准列表中的比赛如下:
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[SV Zulte Waregem II -- KSV Bredene]
+被匹配比赛所在联赛为: [47 ']
+
+2024-11-09 04:39:11 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 934, 接收 Tokens 数量: 667, 费用人民币: 0元0角8分
+2024-11-09 04:39:11 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:11 [WARNING] [这是第 28 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:11 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Sporting Lokeren -- Raal La Louviere U21]
+被匹配比赛所在联赛为: [Belgium / U21 Pro League]
+
+2024-11-09 04:39:16 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 942, 接收 Tokens 数量: 538, 费用人民币: 0元0角7分
+2024-11-09 04:39:16 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:16 [WARNING] [这是第 29 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:16 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Atletico Clube Goianiense U20 -- Trindade GO]
+被匹配比赛所在联赛为: [Brazil / U20 Copa Goiano]
+
+2024-11-09 04:39:19 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 965, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:39:19 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:19 [WARNING] [这是第 30 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:19 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Arsenal WFC -- Brighton and Hove Albion WFC]
+被匹配比赛所在联赛为: [England / The FA Women's Super League]
+
+2024-11-09 04:39:23 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 963, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:39:23 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:23 [WARNING] [这是第 31 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:23 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[AC Ajaccio -- Clermont Foot 63]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Manchester City WFC -- Tottenham Hotspur FC Women]
+被匹配比赛所在联赛为: [England / The FA Women's Super League]
+
+2024-11-09 04:39:28 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 986, 接收 Tokens 数量: 603, 费用人民币: 0元0角7分
+2024-11-09 04:39:28 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:28 [WARNING] [这是第 32 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:28 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[AC Ajaccio -- Clermont Foot 63]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Brighton And Hove Albion U21 -- Luton Town Reserves]
+被匹配比赛所在联赛为: [England / Premier League Cup U21]
+
+2024-11-09 04:39:31 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 990, 接收 Tokens 数量: 283, 费用人民币: 0元0角5分
+2024-11-09 04:39:31 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:31 [WARNING] [这是第 33 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:31 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+[KAA Gent -- SV Zulte Waregem]
+被匹配的比赛为: 
+[Coventry City U21 -- Leicester City FC U21]
+被匹配比赛所在联赛为: [England / Premier League Cup U21]
+
+2024-11-09 04:39:36 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 962, 接收 Tokens 数量: 475, 费用人民币: 0元0角6分
+2024-11-09 04:39:36 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:36 [WARNING] [这是第 34 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:36 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Nottingham Forest FC U21 -- Hull City U21]
+被匹配比赛所在联赛为: [England / Premier League Cup U21]
+
+2024-11-09 04:39:41 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 940, 接收 Tokens 数量: 283, 费用人民币: 0元0角4分
+2024-11-09 04:39:41 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:41 [WARNING] [这是第 35 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:41 [WARNING] 
+标准列表中的比赛如下:
+[AC Ajaccio -- Clermont Foot 63]
+被匹配的比赛为: 
+[AC Ajaccio -- Clermont Foot]
+被匹配比赛所在联赛为: [France / Ligue 2]
+
+2024-11-09 04:39:47 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 934, 接收 Tokens 数量: 682, 费用人民币: 0元0角8分
+2024-11-09 04:39:47 [WARNING] [GPT 匹配结果] 匹配成功
+2024-11-09 04:39:47 [WARNING] [这是第 36 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:47 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Rodez Aveyron Football -- Annecy FC]
+被匹配比赛所在联赛为: [France / Ligue 2]
+
+2024-11-09 04:39:50 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 938, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:39:50 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:50 [WARNING] [这是第 37 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:50 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Stade Lavallois Mayenne -- SC Bastia]
+被匹配比赛所在联赛为: [France / Ligue 2]
+
+2024-11-09 04:39:55 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 938, 接收 Tokens 数量: 411, 费用人民币: 0元0角6分
+2024-11-09 04:39:55 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:39:55 [WARNING] [这是第 38 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:39:55 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Lierse Kempenzonen -- KSC Lokeren Temse]
+被匹配比赛所在联赛为: [Belgium/First Division B]
+
+2024-11-09 04:40:00 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 942, 接收 Tokens 数量: 539, 费用人民币: 0元0角7分
+2024-11-09 04:40:00 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:40:00 [WARNING] [这是第 39 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:40:00 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[Stade Lavallois Mayenne FC -- SC Bastia]
+被匹配比赛所在联赛为: [France/Ligue 2]
+
+2024-11-09 04:40:03 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 939, 接收 Tokens 数量: 283, 费用人民币: 0元0角4分
+2024-11-09 04:40:03 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
+2024-11-09 04:40:03 [WARNING] [这是第 40 次GPT请求]-----------------------------------------------------------------
+2024-11-09 04:40:03 [WARNING] 
+标准列表中的比赛如下:
+[TOP Oss -- FC Den Bosch]
+被匹配的比赛为: 
+[First Vienna FC -- SC Austria Lustenau]
+被匹配比赛所在联赛为: [Austria/2. Liga]
+
+2024-11-09 04:40:06 [WARNING] [GPT 费用计算] 发送 Tokens 数量: 937, 接收 Tokens 数量: 347, 费用人民币: 0元0角5分
+2024-11-09 04:40:06 [WARNING] [GPT 匹配结果] 没有找到合适的比赛，匹配失败
