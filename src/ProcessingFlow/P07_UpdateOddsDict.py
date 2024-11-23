@@ -128,81 +128,74 @@ class UpdateOddsDicts(Processor):
         super().__init__(**kwargs)
         self.log_name = log_name or './Log/UpdateOddsDicts.log'
         self.logger = get_logger(name=__name__, log_file=self.log_name)
-
+        self.odds_changes = {}  # 用于跟踪赔率是否变化
 
     def process(self, data):
         self.update_odds_dict(data)
         return data
 
-
     def update_odds_dict(self, spider_data_dict):
+        is_new_entry = False
         standard_name = spider_data_dict['standard_name']
 
         if standard_name not in self.aggregated_platform_dict:
             self.logger.info(f'标准名不在聚合字典中，添加新的标准名: {standard_name}')
+            is_new_entry = True
             return None
 
-        """
-        one_odds_dict =  {
-            'Stake': {
-                'platform': str,
-                'home_odds': float,
-                ...
-            },
-            'Rollbit': {
-                ...
-            },
-            # '更多平台'
-        }
-        它就是单纯的从aggregated_max_odds_dict 提取第一层的某一条记录
-        """
         one_odds_dict = self.aggregated_platform_dict[standard_name]
-        # self.logger.info(one_odds_dict)
-        # self.logger.info(f"{json.dumps(one_odds_dict, ensure_ascii=False,indent=4)}")
-        if len(one_odds_dict) == 1:
+        # self.logger.info(f"one_odds_dict: {json.dumps(one_odds_dict, ensure_ascii=False, indent=4)}")
+
+        max_home_odds = {'odds': 0, 'Platform': None, 'game_name': None, 'standard_name': None}
+        max_draw_odds = {'odds': 0, 'Platform': None, 'game_name': None, 'standard_name': None}
+        max_away_odds = {'odds': 0, 'Platform': None, 'game_name': None, 'standard_name': None}
+
+        for platform, game_info_dict in one_odds_dict.items():
+            # self.logger.info(f"{json.dumps(game_info_dict, indent=4, ensure_ascii=False)}")
+            if game_info_dict['home_team_odds'] > max_home_odds['odds']:
+                max_home_odds = {
+                    'odds': game_info_dict['home_team_odds'],
+                    'Platform': platform,
+                    'game_name': game_info_dict['game_name'],
+                    'standard_name': standard_name,
+                    'platform_name': platform,
+                    'home_team': game_info_dict['home_team_name'],
+                    'guest_team': game_info_dict['guest_team_name'],
+                    'betting_team_name': game_info_dict['home_team_name'],
+                }
+            if game_info_dict['draw_odds'] > max_draw_odds['odds']:
+                max_draw_odds = {
+                    'odds': game_info_dict['draw_odds'],
+                    'Platform': platform,
+                    'game_name': game_info_dict['game_name'],
+                    'standard_name': standard_name,
+                    'platform_name': platform,
+                    'home_team': game_info_dict['home_team_name'],
+                    'guest_team': game_info_dict['guest_team_name'],
+                    'betting_team_name': 'Draw',
+                }
+            if game_info_dict['guest_team_odds'] > max_away_odds['odds']:
+                max_away_odds = {
+                    'odds': game_info_dict['guest_team_odds'],
+                    'Platform': platform,
+                    'game_name': game_info_dict['game_name'],
+                    'standard_name': standard_name,
+                    'platform_name': platform,
+                    'home_team': game_info_dict['home_team_name'],
+                    'guest_team': game_info_dict['guest_team_name'],
+                    'betting_team_name': game_info_dict['guest_team_name'],
+                }
+        try:
+            total_odds = sum(1 / odds['odds'] for odds in [max_home_odds, max_draw_odds, max_away_odds])
+        except ZeroDivisionError:
+            self.logger.warning(f"标准名称{standard_name}的赔率存在零或负数，无法计算total_odds。")
+            # print(f"标准名称{standard_name}的赔率存在零或负数，无法计算total_odds。")
+            # total_odds = None  # 或者 total_odds = 0
             return None
 
-        if len(one_odds_dict) > 1:
-            total_odds = 0
-            max_home_odds = {'odds': 0, 'Platform': None, 'game_name': None,'standard_name': None}
-            max_draw_odds = {'odds': 0, 'Platform': None, 'game_name': None,'standard_name': None}
-            max_away_odds = {'odds': 0, 'Platform': None, 'game_name': None,'standard_name': None}
-            for platform, game_info_dict in one_odds_dict.items():
-                # self.logger.info(f"{json.dumps(game_info_dict,indent=4, ensure_ascii=False)}")
-                if game_info_dict['home_team_odds'] > max_home_odds['odds']:
-                    max_home_odds = {
-                        'odds': game_info_dict['home_team_odds'],
-                        'Platform': platform,
-                        'game_name': game_info_dict['game_name'],
-                        'standard_name':standard_name,
+        self.logger.warning(f"标准名称{standard_name}的最大赔率：{total_odds}")
 
-                        'platform_name':platform,
-                        'home_team': game_info_dict['home_team_name'],
-                        'guest_team': game_info_dict['guest_team_name'],
-                        #'betting_team_name':game_info_dict['home_team_name'], 这里会在自动化投注的配置，现在就先不配置了
-                    }
-                if game_info_dict['draw_odds'] > max_draw_odds['odds']:
-                    max_draw_odds = {
-                        'odds': game_info_dict['draw_odds'],
-                        'Platform': platform,
-                        'game_name': game_info_dict['game_name'],
-                        'standard_name':standard_name,
-                        'platform_name': platform,
-                        'home_team': game_info_dict['home_team_name'],
-                        'guest_team': game_info_dict['guest_team_name'],
-                        # 'betting_team_name':game_info_dict['home_team_name'], 这里会在自动化投注的配置，现在就先不配置了
-                    }
-                if game_info_dict['guest_team_odds'] > max_away_odds['odds']:
-                    max_away_odds = {
-                        'odds': game_info_dict['guest_team_odds'],
-                        'Platform': platform,
-                        'game_name': game_info_dict['game_name'],
-                        'standard_name':standard_name,
-                        'platform_name': platform,
-                        'home_team': game_info_dict['home_team_name'],
-                        'guest_team': game_info_dict['guest_team_name'],
-                        # 'betting_team_name':game_info_dict['home_team_name'], 这里会在自动化投注的配置，现在就先不配置了
-                    }
+        try:
             if all(odds['odds'] > 0 for odds in [max_home_odds, max_draw_odds, max_away_odds]):
                 total_odds = sum(1 / odds['odds'] for odds in [max_home_odds, max_draw_odds, max_away_odds])
                 self.aggregated_max_odds_dict[standard_name] = {
@@ -211,13 +204,9 @@ class UpdateOddsDicts(Processor):
                     'away_max_odds': max_away_odds,
                     'total_odds': total_odds
                 }
-
-
-                # if 0 < total_odds < 1:
-                #     self.betting_queue.put(self.aggregated_max_odds_dict[standard_name])
-                #     self.logger.warning(
-                #         f"发现套利机会：{json.dumps(self.aggregated_max_odds_dict[standard_name], indent=4, ensure_ascii=False)}")
+                self.logger.warning(f"标准名称{standard_name}的最大赔率：{self.aggregated_max_odds_dict[standard_name]['total_odds']}")
             else:
-                self.logger.debug(f"标准名称{standard_name}的赔率存在零或负数，无法计算total_odds。")
+                self.logger.info(f"标准名称{standard_name}的赔率存在零或负数，无法计算total_odds。")
+        except Exception as e:
+            print(f"这里的错误55{e}")
 
-            self.logger.debug(f"计算标准名称{standard_name}的赔率：{self.aggregated_max_odds_dict.get(standard_name)}")

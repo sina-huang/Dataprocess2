@@ -96,7 +96,7 @@ class MatchGPT(Processor):
         # self.logger.info(f"[GPT 请求] 描述: {desc}")
         self.logger.warning(
             f"[这是第 {self.num_gpt_ask} 次GPT请求]-----------------------------------------------------------------")
-
+        print(f"[这是第 {self.num_gpt_ask} 次GPT请求]-----------------------------------------------------------------")
         self.log_(spider_data,platform_data)
 
         try:

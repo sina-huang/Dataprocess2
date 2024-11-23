@@ -3,6 +3,7 @@ import time
 import queue
 import threading
 import redis
+from cachetools import TTLCache
 from settings import REDIS
 from settings import url_sender, url_betting, url_receiver
 from src.WS.WS_Receiver import Receiver
@@ -20,7 +21,6 @@ from src.ProcessingFlow.P04_MathFuzzy import MatchFuzzy
 from src.ProcessingFlow.P05_MatchGPT import MatchGPT
 from src.ProcessingFlow.P06_UpdateDicts import UpdateDicts
 from src.ProcessingFlow.P07_UpdateOddsDict import UpdateOddsDicts
-# from src.ProcessingFlow.P08_CalculateOdssLess1 import CalculateOddsLess1
 from src.ProcessingFlow.p09_CalculateOddsLess1_1 import CalculateOddsLess1
 
 
@@ -48,8 +48,8 @@ class Controller:
 
         self.standard_list_for_gpt_ask = []
         self.standard_list_for_fuzzy_match = []
-        self.aggregated_platform_dict = {}
-        self.aggregated_max_odds_dict = {}
+        self.aggregated_platform_dict = TTLCache(maxsize=500, ttl=4 * 60 * 60)
+        self.aggregated_max_odds_dict = TTLCache(maxsize=500, ttl=4 * 60 * 60)
 
         # todo 初始化管道
         self.pipeline = Pipeline(mapping_dict=self.mapping_dict,
@@ -114,7 +114,7 @@ class Controller:
                 # 数据处理失败，丢弃该数据
                 self.input_queue.task_done()
                 continue
-
+            self.input_queue.task_done()
 
 
 

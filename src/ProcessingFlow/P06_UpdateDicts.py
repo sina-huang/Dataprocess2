@@ -1,5 +1,5 @@
 import json
-
+import time
 from src.ProcessingFlow.BaseProcess import Processor
 from src.Utils.Log import get_logger
 
@@ -87,6 +87,7 @@ class UpdateDicts(Processor):
 
     def __init__(self, log_name='MathFuzzy',**kwargs):
         super().__init__(**kwargs)
+        self.start = None
         self.log_name = log_name or './Log/MathFuzzy.log'
         self.logger = get_logger(name=__name__, log_file=self.log_name)
 
@@ -113,39 +114,31 @@ class UpdateDicts(Processor):
         # 更新聚合字典
         self.aggregated_platform_dict[standard_name][data['Platform']] = data
 
-        # 仅在有新增项目时打印日志
         if is_new_entry:
-            self.logger.info(
-                f"[聚合字典更新成功] {json.dumps(self.aggregated_platform_dict, ensure_ascii=False, indent=4)}")
-        # self.summary_from_dict(is_new_entry)
-        self.count_matches_with_more_than_two_platforms()
-
+            # print('新增条目')
+            # self.logger.warning(f"[聚合字典更新成功] {json.dumps(self.aggregated_platform_dict, ensure_ascii=False, indent=4)}")
+            self.count_matches_with_more_than_two_platforms()
         return data
 
-    def summary_from_dict(self,is_new_entry):
-        filtered_result = {}
-        for standard_name, platforms in self.aggregated_platform_dict.items():
-            filtered_result[standard_name] = {
-
-                platform_name: {
-                    'game_name': platform_info['game_name'],
-                    'standard_name': platform_info['standard_name'],
-                    'match_channels': platform_info['match_channels']
-                }
-                for platform_name, platform_info in platforms.items()
-            }
-            if len(platforms) == 1:
-                pass
-            if len(platforms) > 1:
-                self.logger.warning(f"[聚合字典汇总结果] [匹配成功{len(filtered_result)}] 具体数据： {json.dumps(filtered_result, ensure_ascii=False,indent=4)}")
-
-
     def count_matches_with_more_than_two_platforms(self):
-        count = 0  # 初始化计数器
-        for match, platforms in self.aggregated_platform_dict.items():
-            if len(platforms) >= 2:
-                print(platforms)
-                count += 1  # 满足条件，计数器加 1
-        self.logger.debug(f"[聚合字典汇总结果] [共找到多平台匹配成功的比赛有： {count} 场] ")
+        print('计算聚合字典中比赛数量')
+        try:
+            converted_dict = {
+                game: [
+                    (platform, details['home_team_odds'], details['draw_odds'], details['guest_team_odds'])  # 提取三个赔率
+                    for platform, details in platforms.items()
+                ]
+                for game, platforms in self.aggregated_platform_dict.items()
+            }
+
+            filtered_dict = {game: platforms for game, platforms in converted_dict.items() if len(platforms) > 1}
+            formatted_json = json.dumps(filtered_dict, ensure_ascii=False, indent=4)
+            print(f'一共聚合了 {len(converted_dict)} 场比赛,一共有 {len(filtered_dict)} 场比赛匹配成功，目前的聚合字典：\n{formatted_json}')
+        except Exception as e:
+            # 捕获异常并打印日志
+            self.logger.error(f"执行过程中出现异常: {str(e)}")
+            print(f"执行过程中出现异常: {str(e)}")
+
+
 
 

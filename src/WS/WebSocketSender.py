@@ -30,7 +30,7 @@ class WebSocketSender(WebSocketThread):
                     if isinstance(message, dict):
                         message = json.dumps(message, ensure_ascii=False)
                     self.ws.send(message)
-                    self.logger.debug(f"[{self.name} 发送消息]：{message}")
+                    # self.logger.debug(f"[{self.name} 发送消息]：{message}")
                     self.output_queue.task_done()
                 except queue.Empty:
                     continue

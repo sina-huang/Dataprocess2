@@ -23,8 +23,9 @@ class WsMessagesParser(Processor):
                     self.__class__.Num_Valid_data += 1
                     # 检查有效数据数量是否为 100 的倍数
                     if self.__class__.Num_Valid_data % 100 == 0:
-                        self.logger.warning(
-                            f"[管道1--ws解析] 收到的有效数据数量为 100 的倍数: {self.__class__.Num_Valid_data}")
+                        pass
+                        # self.logger.warning(
+                            # f"[管道1--ws解析] 收到的有效数据数量为 100 的倍数: {self.__class__.Num_Valid_data}")
                 elif isinstance(data_str, dict):
                     self.logger.info(f"[管道1--ws解析] 解析成功：{data_str}")
                     data_dict = data_str
